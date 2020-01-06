@@ -1,2 +1,2 @@
 # testing-repository
-Test repository for BIOF 540
+Test repository for BIOF/STAT/GSAT 540
