@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- * Links -->
 <!-- * Images -->
 
-# Meet the Dogs
+# Meet... the Dogs!
 
 ```{r load packages, message = FALSE, warning = FALSE, echo = FALSE}
 library(tidyverse)
