@@ -62,7 +62,7 @@ kable(dogs)
 
 ## Dumpling {.tabset .tabset-fade}
 
-![](dogs/Dumpling.jpeg)
+![](dogs/Dumpling-2.jpeg)
 
 ```{r Dumpling, echo = FALSE}
 dogs %>%
@@ -612,7 +612,7 @@ dogs %>%
 # Demographics
 
 Here is a summary of the dog squad's demographics: <br/><br/>
-```{r age, echo = FALSE}
+```{r demo, echo = FALSE}
 dogs %>%
   ggplot(aes(x=Size, y=`Age (years)`, colour = Sex)) +
   geom_jitter(position = position_jitter(width = 0.3, 
