@@ -123,6 +123,7 @@ dogs %>%
 * strangers
 * toys
 * the vacuum
+* *cheap* dog treats
 
 ### Favourite Foods
 1. Cesar dog food
@@ -131,7 +132,6 @@ dogs %>%
 1. Chicken
 1. Peanut butter
 1. Mango
-1. _Cheap_ dog treats
 
 ## {.toc-ignore}
 
