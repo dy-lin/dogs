@@ -421,7 +421,7 @@ dogs %>%
 
 ## Cookie {.tabset .tabset-fade}
 
-<!-- ![](dogs/Cookie.jpg) -->
+![](dogs/Cookie.png)
 
 ```{r Cookie, echo = FALSE}
 dogs %>%
