@@ -23,6 +23,18 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- * Links -->
 <!-- * Images -->
 
+<style type="text/css">
+body, td {
+   font-size: 18px;
+}
+code.r{
+  font-size: 18px;
+}
+pre {
+  font-size: 18px
+}
+</style>
+
 # Meet... the Dogs!
 
 ```{r load packages, message = FALSE, warning = FALSE, echo = FALSE}
@@ -83,7 +95,9 @@ dogs %>%
 
 #### **Fun Fact**: She loves playing with the laser pointer, like a cat!
 
-<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[dumpling_thebc](http://www.instagram.com/dumpling_thebc) </h4></center>
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[dumpling_thebc](http://www.instagram.com/dumpling_thebc) </h4></div>
+
+***
 
 ## Cupcake {.tabset .tabset-fade}
 
@@ -123,6 +137,8 @@ dogs %>%
 
 #### **Fun Fact**: She loves wet dog food but it makes her poop wet, so a bit of wet food is mixed into her dry food.
 
+***
+
 ## Bella {.tabset .tabset-fade}
 
 ![](dogs/Bella.jpeg)
@@ -153,6 +169,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: She loves to have her butt scratched.
+
+***
 
 ## Nova {.tabset .tabset-fade}
 
@@ -190,6 +208,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: Honestly very catlike-- will walk away from you if you sit too close but will be upset if not in the same room.
+
+***
 
 ## Peas {.tabset .tabset-fade}
 
@@ -230,7 +250,9 @@ dogs %>%
 
 #### **Fun Fact**: His kisses are essentially a wet nose bumping into your face.
 
-<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[peasthegreatberner](http://www.instagram.com/peasthegreatberner)</h4></center>
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[peasthegreatberner](http://www.instagram.com/peasthegreatberner)</h4></div>
+
+***
 
 ## Delilah {.tabset .tabset-fade}
 
@@ -261,6 +283,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: Delilah tells off Harley for being too high strung.
+
+***
 
 ## Dumbo {.tabset .tabset-fade}
 
@@ -293,6 +317,8 @@ dogs %>%
 
 #### **Fun Fact**: He bites at night and nobody (not even the vet) knows why.
 
+***
+
 ## Maya {.tabset .tabset-fade}
 
 ![](dogs/Maya.JPG)
@@ -324,6 +350,8 @@ dogs %>%
 
 #### **Fun Fact**: She will follow you wherever you go at home.
 
+***
+
 ## Toby {.tabset .tabset-fade}
 
 <!-- ![](dogs/Toby.jpg) -->
@@ -353,6 +381,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: he had a mop phase (see photo proof)!
+
+***
 
 ## Sonny {.tabset .tabset-fade}
 
@@ -384,6 +414,8 @@ dogs %>%
 
 #### **Fun Fact**: He's a rescue from Texas!
 
+***
+
 ## Cookie {.tabset .tabset-fade}
 
 <!-- ![](dogs/Cookie.jpg) -->
@@ -407,6 +439,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: He's a rescue from Taiwan!
+
+***
 
 ## Luna {.tabset .tabset-fade}
 
@@ -433,6 +467,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: She has a surprisingly deep bark.
+
+***
 
 ## Buddy {.tabset .tabset-fade}
 
@@ -462,7 +498,9 @@ dogs %>%
 
 #### **Fun Fact**: He will respond to "TREATS" more than his own name.
 
-<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[buddychaoder](http://www.instagram.com/buddychaoder)</h4></center>
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[buddychaoder](http://www.instagram.com/buddychaoder)</h4></divr>
+
+***
 
 ## Maya {.tabset .tabset-fade}
 
@@ -496,6 +534,8 @@ dogs %>%
 #### **Fun Fact**: She got a box (accidentally) for Christmas and loves to sleep in it!
 
 ![](dogs/Maya-2.jpg)
+
+***
 
 ## 小點 (Dots) {.tabset .tabset-fade}
 
@@ -534,6 +574,8 @@ dogs %>%
 
 #### **Fun Fact**: She's the oldest in her litter of 7.
 
+***
+
 ## Teddy {.tabset .tabset-fade}
 
 ![](dogs/Teddy.jpg)
@@ -561,6 +603,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: His back right knee is too small and his leg is slightly crooked so he limps-- it doesn't hurt for him though!
+
+***
 
 # Characteristics
 
