@@ -7,4 +7,4 @@ This change was made directly on GitHub.
 
 Dogs:
 
-https://dy-lin.github.io/testing-repository/seminar02a.html
+https://dy-lin.github.io/dogs/index.html
