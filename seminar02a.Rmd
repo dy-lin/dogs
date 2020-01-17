@@ -354,7 +354,7 @@ dogs %>%
 
 ## Toby {.tabset .tabset-fade}
 
-<!-- ![](dogs/Toby.jpg) -->
+![](dogs/Toby-1.jpg)
 
 ```{r Toby, echo = FALSE}
 dogs %>%
@@ -380,17 +380,20 @@ dogs %>%
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: he had a mop phase (see photo proof)!
+#### **Fun Fact**: he had a mop phase!
+
+![](dogs/Toby-2.jpg) <br/><br/>
+![](dogs/Toby-3.jpg)
 
 ***
 
 ## Sonny {.tabset .tabset-fade}
 
-<!-- ![](dogs/Sonny.jpg) -->
+![](dogs/Sonny.jpg)
 
 ```{r Sonny, echo = FALSE}
 dogs %>%
-  filter(Name == "Toby") %>%
+  filter(Name == "Sonny") %>%
   kable()
 ```
 
@@ -444,7 +447,7 @@ dogs %>%
 
 ## Luna {.tabset .tabset-fade}
 
-<!-- ![](dogs/Luna.jpg) -->
+![](dogs/Luna.jpg)
 
 ```{r Luna, echo = FALSE}
 dogs %>%
