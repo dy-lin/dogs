@@ -325,7 +325,7 @@ dogs %>%
 
 ```{r Maya, echo = FALSE}
 dogs %>%
-  filter(Name == "Maya", Age == 5) %>%
+  filter(Name == "Maya", `Age (years)` == 5) %>%
   kable()
 ```
 
@@ -508,7 +508,7 @@ dogs %>%
 
 ```{r Maya-2, echo = FALSE}
 dogs %>%
-  filter(Name == "Maya", Age == 13) %>%
+  filter(Name == "Maya", `Age (years)` == 13) %>%
   kable()
 ```
 
@@ -606,12 +606,12 @@ dogs %>%
 
 ***
 
-# Characteristics
+# Demographics
 
-Here is a characteristic summary of our dog demographic: <br/><br/>
+Here is a summary of the dog squad's demographics: <br/><br/>
 ```{r age, echo = FALSE}
 dogs %>%
-  ggplot(aes(x=Size, y=Age, colour = Sex)) +
+  ggplot(aes(x=Size, y=`Age (years)`, colour = Sex)) +
   geom_jitter(position = position_jitter(width = 0.3, 
                                          seed = 3)) + 
   geom_text_repel(aes(label=Name), 
@@ -624,7 +624,7 @@ dogs %>%
   labs(y = "Age (years)",
        x = "Size",
        title = "Dog Characteristics") +
-#  theme_bw() +
+  theme_bw() +
   theme(text = element_text(size = 18, 
                             family = "STFangsong"),
         legend.title.align = 0.5)
