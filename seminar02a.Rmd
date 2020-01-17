@@ -613,10 +613,10 @@ Here is a summary of the dog squad's demographics: <br/><br/>
 dogs %>%
   ggplot(aes(x=Size, y=`Age (years)`, colour = Sex)) +
   geom_jitter(position = position_jitter(width = 0.3, 
-                                         seed = 3)) + 
+                                         seed = 6)) + 
   geom_text_repel(aes(label=Name), 
                   position = position_jitter(width = 0.3, 
-                                             seed = 3), 
+                                             seed = 6), 
                   show.legend = FALSE, 
                   colour = "black",
                   family = "STFangsong",
