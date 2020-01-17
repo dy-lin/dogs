@@ -38,7 +38,7 @@ dogs <- read_csv("dogs/dogs.csv",
                                   col_character(), 
                                   col_factor(),
                                   col_factor(),
-                                  col_integer()))
+                                  col_double()))
 dogs$Size <- fct_relevel(dogs$Size, "small")
 
 ```
@@ -81,9 +81,9 @@ dogs %>%
 
 ## {.toc-ignore}
 
-*Fun fact*: She loves playing with the laser pointer, like a cat!
+#### **Fun Fact**: She loves playing with the laser pointer, like a cat!
 
-**Instagram**: [\@dumpling_thebc](http://www.instagram.com/dumpling_thebc)
+<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[dumpling_thebc](http://www.instagram.com/dumpling_thebc) </h4></center>
 
 ## Cupcake {.tabset .tabset-fade}
 
@@ -121,7 +121,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: She loves wet dog food but it makes her poop wet, so a bit of wet food is mixed into her dry food.
+#### **Fun Fact**: She loves wet dog food but it makes her poop wet, so a bit of wet food is mixed into her dry food.
 
 ## Bella {.tabset .tabset-fade}
 
@@ -152,7 +152,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: XXX
+#### **Fun Fact**: She loves to have her butt scratched.
 
 ## Nova {.tabset .tabset-fade}
 
@@ -189,7 +189,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-*Fun fact*: Honestly very catlike-- will walk away from you if you sit too close but will be upset if not in the same room.
+#### **Fun Fact**: Honestly very catlike-- will walk away from you if you sit too close but will be upset if not in the same room.
 
 ## Peas {.tabset .tabset-fade}
 
@@ -228,9 +228,9 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: His kisses are essentially a wet nose bumping into your face.
+#### **Fun Fact**: His kisses are essentially a wet nose bumping into your face.
 
-__Instagram__: [\@peasthegreatberner](http://www.instagram.com/peasthegreatberner)
+<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[peasthegreatberner](http://www.instagram.com/peasthegreatberner)</h4></center>
 
 ## Delilah {.tabset .tabset-fade}
 
@@ -260,7 +260,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: Delilah tells off Harley for being too high strung.
+#### **Fun Fact**: Delilah tells off Harley for being too high strung.
 
 ## Dumbo {.tabset .tabset-fade}
 
@@ -291,7 +291,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: He bites at night and nobody (not even the vet) knows why.
+#### **Fun Fact**: He bites at night and nobody (not even the vet) knows why.
 
 ## Maya {.tabset .tabset-fade}
 
@@ -299,7 +299,7 @@ _Fun fact_: He bites at night and nobody (not even the vet) knows why.
 
 ```{r Maya, echo = FALSE}
 dogs %>%
-  filter(Name == "Maya") %>%
+  filter(Name == "Maya", Age == 5) %>%
   kable()
 ```
 
@@ -322,7 +322,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: She will follow you wherever you go at home.
+#### **Fun Fact**: She will follow you wherever you go at home.
 
 ## Toby {.tabset .tabset-fade}
 
@@ -352,7 +352,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: he had a mop phase (see photo proof)!
+#### **Fun Fact**: he had a mop phase (see photo proof)!
 
 ## Sonny {.tabset .tabset-fade}
 
@@ -382,7 +382,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: He's a rescue from Texas!
+#### **Fun Fact**: He's a rescue from Texas!
 
 ## Cookie {.tabset .tabset-fade}
 
@@ -406,7 +406,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: He's a rescue from Taiwan!
+#### **Fun Fact**: He's a rescue from Taiwan!
 
 ## Luna {.tabset .tabset-fade}
 
@@ -432,7 +432,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: She has a surprisingly deep bark.
+#### **Fun Fact**: She has a surprisingly deep bark.
 
 ## Buddy {.tabset .tabset-fade}
 
@@ -460,13 +460,112 @@ dogs %>%
 
 ## {.toc-ignore}
 
-_Fun fact_: He will respond to "TREATS" more than his own name.
+#### **Fun Fact**: He will respond to "TREATS" more than his own name.
 
-**Instagram**: [\@buddychaoder](http://www.instagram.com/buddychaoder)
+<center><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[buddychaoder](http://www.instagram.com/buddychaoder)</h4></center>
 
+## Maya {.tabset .tabset-fade}
+
+![](dogs/Maya-1.jpg)
+
+```{r Maya-2, echo = FALSE}
+dogs %>%
+  filter(Name == "Maya", Age == 13) %>%
+  kable()
+```
+
+
+### Likes
+* walks
+* grandma
+* drives
+
+### Dislikes
+* lettuce
+* other dogs (scared)
+
+### Favourite Foods
+1. Chicken
+1. Oranges
+1. Frozen veggies
+1. Bananas
+1. Apples
+
+## {.toc-ignore}
+
+#### **Fun Fact**: She got a box (accidentally) for Christmas and loves to sleep in it!
+
+![](dogs/Maya-2.jpg)
+
+## 小點 (Dots) {.tabset .tabset-fade}
+
+![](dogs/Dot.jpg)
+
+```{r Dots, echo = FALSE}
+dogs %>%
+  filter(Name == "小點 (Dots)") %>%
+  kable()
+```
+
+### Likes
+* walks
+* catch (especially with balls)
+* that game where you move your hand under the blanket and she goes crazy for it
+* food, especially treats like milk bones
+* human food
+
+### Dislikes
+* bikes
+* runners
+* skateboarders
+* fireworks
+* crows
+* cutting nails
+* baths (maybe water in general)
+
+### Favourite Foods
+1. Beef/Salmon
+1. Pork/Chicken
+1. Treats
+1. Whatever we're eating
+1. Fruits and veggies (carrots, watermelon, papaya, cantaloupe, durian)
+
+## {.toc-ignore}
+
+#### **Fun Fact**: She's the oldest in her litter of 7.
+
+## Teddy {.tabset .tabset-fade}
+
+![](dogs/Teddy.jpg)
+
+```{r Teddy, echo = FALSE}
+dogs %>%
+  filter(Name == "Teddy") %>%
+  kable()
+```
+
+### Likes
+* ATTENTION
+* belly rubs
+* to be chased / play
+* pets
+
+### Dislikes
+* no attention
+* being ignored/not let in the same room
+
+### Favourite Foods
+1. TREATS
+1. Kibble
+
+## {.toc-ignore}
+
+#### **Fun Fact**: His back right knee is too small and his leg is slightly crooked so he limps-- it doesn't hurt for him though!
 
 # Characteristics
-```{r age}
+
+Here is a characteristic summary of our dog demographic: <br/><br/>
+```{r age, echo = FALSE}
 dogs %>%
   ggplot(aes(x=Size, y=Age, colour = Sex)) +
   geom_jitter(position = position_jitter(width = 0.3, 
@@ -475,12 +574,15 @@ dogs %>%
                   position = position_jitter(width = 0.3, 
                                              seed = 3), 
                   show.legend = FALSE, 
-                  colour = "black") +
+                  colour = "black",
+                  family = "STFangsong",
+                  size = 5) +
   labs(y = "Age (years)",
        x = "Size",
        title = "Dog Characteristics") +
-  theme_bw() +
-  theme(text = element_text(size = 18),
+#  theme_bw() +
+  theme(text = element_text(size = 18, 
+                            family = "STFangsong"),
         legend.title.align = 0.5)
 ```
 
