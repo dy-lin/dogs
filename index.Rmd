@@ -16,13 +16,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<!-- To demonstrate that I've understood the seminar material regarding markdown features, I've compiled a simple summary of dogs I know. Markdown features used include: -->
-
-<!-- * Headers -->
-<!-- * Lists -->
-<!-- * Links -->
-<!-- * Images -->
-
 <style type="text/css">
 body, td {
    font-size: 18px;
@@ -37,6 +30,7 @@ pre {
 
 # Meet... the Dogs!
 
+![](dogs/squad.jpg)
 ```{r load packages, message = FALSE, warning = FALSE, echo = FALSE}
 library(tidyverse)
 library(knitr)
