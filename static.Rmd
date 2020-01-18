@@ -735,7 +735,7 @@ dogs %>%
 
 #### **Fun Fact**: Ralphie has travelled to four countries!
 
-<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphieroo](http://www.instagram.com/ralphieroo)</h4></divr>
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphierooo](http://www.instagram.com/ralphierooo)</h4></divr>
 
 ***
 
