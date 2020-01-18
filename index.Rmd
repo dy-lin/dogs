@@ -56,7 +56,10 @@ slickR(obj = photos,
        slickOpts = opts)
 ```
 -->
+
+<!--
 ![](dogs/squad.jpg)
+-->
 
 <!-- Read in the data: -->
 ```{r load csv, echo = FALSE}
