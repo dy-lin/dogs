@@ -601,7 +601,11 @@ dogs %>%
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: His back right knee is too small and his leg is slightly crooked so he limps-- it doesn't hurt for him though!
+#### **Fun Fact**: His back right knee is too small and his leg is slightly crooked so he limps-- it doesn't hurt for him though! Also, he does a devil shriek:
+
+<center><video height="50%" width="50%" controls>
+  <source src="dogs/shriek.mp4" type="video/mp4">
+</video></center>
 
 ***
 
