@@ -33,14 +33,14 @@ library(tidyverse)
 library(knitr)
 library(ggrepel)
 ```
-
+<!--
 ```{r extra, message = FALSE, warning = FALSE, echo = FALSE}
 library(slickR)
 library(htmlwidgets)
 ```
-
+-->
 # Meet... the Dogs!
-
+<!--
 ```{r carousel, message = FALSE, warning = FALSE, echo = FALSE}
 photos <- paste0("dogs/cropped/",list.files("dogs/cropped"))
 
@@ -50,13 +50,13 @@ opts <- list(dots = FALSE,
              initialSlide = first,
              autoplay = TRUE,
              autoplaySpeed = 2000,
-             arrows = FALSE
+             arrows = TRUE
              )
 slickR(obj = photos,
        slickOpts = opts)
 ```
-
-<!-- ![](dogs/squad.jpg)-->
+-->
+![](dogs/squad.jpg)
 
 <!-- Read in the data: -->
 ```{r load csv, echo = FALSE}
@@ -624,6 +624,155 @@ dogs %>%
 #### **Fun Fact**: His back right knee is too small and his leg is slightly crooked so he limps-- it doesn't hurt for him though!
 
 ***
+
+## Darcy {.tabset .tabset-fade}
+
+![](dogs/Darcy.jpg)
+```{r Darcy, echo = FALSE}
+dogs %>%
+  filter(Name == "Darcy") %>%
+  kable()
+```
+
+### Likes
+* eating/playing in snow
+* playing fetch
+* cuddling with her humans
+
+### Dislikes
+* vacuums
+* strangers (she's a scaredy cat)
+
+### Favourite Foods
+1. Salmon / Lamb / Duck / Blueberries
+1. Beef / Apples
+1. Chicken
+
+## {.toc-ignore}
+
+#### **Fun Fact**: Darcy sings along to music all the time!!!
+
+***
+
+## Theo {.tabset .tabset-ignore}
+
+![](dogs/Theo.jpg)
+
+```{r Theo, echo = FALSE}
+dogs %>%
+  filter(Name == "Theo") %>%
+  kable()
+```
+
+### Likes
+* sleeping
+* going in and out a lot
+* licking carpets
+* greeting people when they come in
+* car rides
+* playing in water
+
+### Dislikes
+* walks that are longer than a couple of blocks
+* dogs that won't leave him alone when he's tired
+* getting left behind when people leave
+* actually getting into the water in the first place
+
+### Favourite Foods
+1. Liver
+1. Raw egg
+1. Popcorn
+1. Kibble
+
+## {.toc-ignore}
+
+#### **Fun Fact**: Theo is from Arizona.
+
+***
+
+## Lucky {.tabset .tabset-fade}
+
+![](dogs/Lucky.jpg)
+
+```{r Lucky, echo = FALSE}
+dogs %>%
+  filter(Name == "Lucky") %>%
+  kable()
+```
+
+### Likes
+* to sit on soft things
+* eating human food
+* having his humans rock him to sleep
+
+### Dislikes
+* big dogs
+* puppies
+
+### Favourite Foods
+1. Any human food (especially rice)
+
+## {.toc-ignore}
+
+#### **Fun Fact**: he has 0 fear and will bark at cars if they come too close (when he's on the sidewalk).
+
+*** 
+
+<!--
+
+## Ralphie {.tabset .tabset-fade}
+
+![](dogs/Ralphie.jpg)
+
+```{r Ralphie, echo = FALSE}
+dogs %>%
+  filter(Name == "ralphie") %>%
+  kable()
+```
+
+### Likes
+*
+
+### Dislikes
+*
+
+### Favourite Foods
+1.
+
+## {.toc-ignore}
+
+#### **Fun Fact**: 
+
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphieroo](http://www.instagram.com/ralphieroo)</h4></divr>
+
+***
+
+## Amaterasu {.tabset .tabset-fade}
+
+![](dogs/Amaterasu.jpg)
+
+```{r Amaterasu, echo = FALSE}
+dogs %>%
+  filter(Name == "Amaterasu") %>%
+  kable()
+```
+
+### Likes
+*
+
+### Dislikes
+*
+
+### Favourite Foods
+1.
+
+## {.toc-ignore}
+
+#### **Fun Fact**:
+
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphie_and_amaterasu_bear](http://www.instagram.com/ralphie_and_amaterasu_bear)</h4></divr>
+
+*** -->
 
 # Demographics
 
