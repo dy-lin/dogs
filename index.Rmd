@@ -28,14 +28,35 @@ pre {
 }
 </style>
 
-# Meet... the Dogs!
-
-![](dogs/squad.jpg)
 ```{r load packages, message = FALSE, warning = FALSE, echo = FALSE}
 library(tidyverse)
 library(knitr)
 library(ggrepel)
 ```
+
+```{r extra, message = FALSE, warning = FALSE, echo = FALSE}
+library(slickR)
+library(htmlwidgets)
+```
+
+# Meet... the Dogs!
+
+```{r carousel, message = FALSE, warning = FALSE, echo = FALSE}
+photos <- paste0("dogs/cropped/",list.files("dogs/cropped"))
+
+first <- which(photos == "dogs/cropped/squad.jpg") - 1
+
+opts <- list(dots = FALSE,
+             initialSlide = first,
+             autoplay = TRUE,
+             autoplaySpeed = 2000,
+             arrows = FALSE
+             )
+slickR(obj = photos,
+       slickOpts = opts)
+```
+
+<!-- ![](dogs/squad.jpg)-->
 
 <!-- Read in the data: -->
 ```{r load csv, echo = FALSE}
@@ -468,6 +489,7 @@ dogs %>%
 ***
 
 ## Buddy {.tabset .tabset-fade}
+
 
 ![](dogs/Buddy.jpeg)
 
