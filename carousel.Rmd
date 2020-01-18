@@ -120,8 +120,7 @@ dogs %>%
 
 ## Cupcake {.tabset .tabset-fade}
 
-![](dogs/Cupcake-1.jpg) <br/><br/>
-![](dogs/Cupcake-2.jpg)
+![](dogs/Cupcake-1.jpg)
 
 ```{r Cupcake, echo = FALSE}
 dogs %>%
@@ -193,8 +192,7 @@ dogs %>%
 
 ## Nova {.tabset .tabset-fade}
 
-![](dogs/Nova-1.jpg) <br/> <br/>
-![](dogs/Nova-2.jpg)
+![](dogs/Nova-1.jpg)
 
 ```{r Nova, echo = FALSE}
 dogs %>%
@@ -275,8 +273,7 @@ dogs %>%
 
 ## Delilah {.tabset .tabset-fade}
 
-![](dogs/Delilah-1.JPG) <br/><br/>
-![](dogs/Delilah-2.JPG)
+![](dogs/Delilah-1.JPG)
 
 ```{r Delilah, echo = FALSE}
 dogs %>%
@@ -399,10 +396,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: he had a mop phase!
-
-![](dogs/Toby-2.jpg) <br/><br/>
-![](dogs/Toby-3.jpg)
+#### **Fun Fact**: he had a mop phase (see photo proof [here](https://github.com/dy-lin/dogs/raw/master/dogs/Toby-2.jpg) and [here](https://github.com/dy-lin/dogs/raw/master/dogs/Toby-3.jpg))!
 
 ***
 
@@ -554,9 +548,7 @@ dogs %>%
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: She got a box (accidentally) for Christmas and loves to sleep in it!
-
-![](dogs/Maya-2.jpg)
+#### **Fun Fact**: She got a [box](https://github.com/dy-lin/dogs/raw/master/dogs/Maya-2.jpg) (accidentally) for Christmas and loves to sleep in it!
 
 ***
 
@@ -722,11 +714,9 @@ dogs %>%
 
 *** 
 
-<!--
-
 ## Ralphie {.tabset .tabset-fade}
 
-![](dogs/Ralphie.jpg)
+![](dogs/Ralphie-1.jpg)
 
 ```{r Ralphie, echo = FALSE}
 dogs %>%
@@ -735,48 +725,61 @@ dogs %>%
 ```
 
 ### Likes
-*
+* cuddling
+* chasing orange coloured chuckit balls
+* licking faces
+* hiking and exploring
+* performing tricks
 
 ### Dislikes
-*
+* grabby strangers
+* toddlers
+* thunder
 
 ### Favourite Foods
-1.
+1. Mandarin oranges
+1. Dentasticks
+1. Various human foods
+1. Treats
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: 
+#### **Fun Fact**: Ralphie has travelled to four countries!
 
 <div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphieroo](http://www.instagram.com/ralphieroo)</h4></divr>
 
 ***
 
-## Amaterasu {.tabset .tabset-fade}
+## Amaterasu (Ammy) {.tabset .tabset-fade}
 
-![](dogs/Amaterasu.jpg)
+![](dogs/Ammy-1.jpg)
 
 ```{r Amaterasu, echo = FALSE}
 dogs %>%
-  filter(Name == "Amaterasu") %>%
+  filter(Name == "Amaterasu (Ammy)") %>%
   kable()
 ```
 
 ### Likes
-*
+* to consume any and all food
+* butt scritches
+* tormenting Ralphie
 
 ### Dislikes
-*
+* car turn signals
+* authority of any type
+* fireworks
 
 ### Favourite Foods
-1.
+1. Anything except leaves
 
 ## {.toc-ignore}
 
-#### **Fun Fact**:
+#### **Fun Fact**: Ammy loves to "rao rao" at strangers in the elevator following her afternoon walk (without fail)!
 
 <div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphie_and_amaterasu_bear](http://www.instagram.com/ralphie_and_amaterasu_bear)</h4></divr>
 
-*** -->
+***
 
 # Demographics
 
