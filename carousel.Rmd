@@ -44,6 +44,10 @@ library(htmlwidgets)
 ```{r carousel, message = FALSE, warning = FALSE, echo = FALSE}
 photos <- paste0("dogs/cropped/",list.files("dogs/cropped"))
 
+folder <- which(photos == "dogs/cropped/faces")
+
+photos <- photos[-folder]
+
 first <- which(photos == "dogs/cropped/squad.jpg") - 1
 
 opts <- list(dots = FALSE,
