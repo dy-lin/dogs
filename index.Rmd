@@ -33,33 +33,10 @@ library(tidyverse)
 library(knitr)
 library(ggrepel)
 ```
-<!--
-```{r extra, message = FALSE, warning = FALSE, echo = FALSE}
-library(slickR)
-library(htmlwidgets)
-```
--->
+
 # Meet... the Dogs!
-<!--
-```{r carousel, message = FALSE, warning = FALSE, echo = FALSE}
-photos <- paste0("dogs/cropped/",list.files("dogs/cropped"))
 
-first <- which(photos == "dogs/cropped/squad.jpg") - 1
-
-opts <- list(dots = FALSE,
-             initialSlide = first,
-             autoplay = TRUE,
-             autoplaySpeed = 2000,
-             arrows = TRUE
-             )
-slickR(obj = photos,
-       slickOpts = opts)
-```
--->
-
-<!--
-![](dogs/squad.jpg)
--->
+<center>![](dogs/DOGS.png)</center>
 
 <!-- Read in the data: -->
 ```{r load csv, echo = FALSE}
@@ -721,11 +698,11 @@ dogs %>%
 
 *** 
 
-<!--
 
 ## Ralphie {.tabset .tabset-fade}
 
-![](dogs/Ralphie.jpg)
+![](dogs/Ralphie-1.jpg) <br/> <br/>
+![](dogs/Ralphie-2.jpg)
 
 ```{r Ralphie, echo = FALSE}
 dogs %>%
@@ -734,48 +711,63 @@ dogs %>%
 ```
 
 ### Likes
-*
+* cuddling
+* chasing orange coloured chuckit balls
+* licking faces
+* hiking and exploring
+* performing tricks
 
 ### Dislikes
-*
+* grabby strangers
+* toddlers
+* thunder
 
 ### Favourite Foods
-1.
+1. Mandarin oranges
+1. Dentasticks
+1. Various human foods
+1. Treats
 
 ## {.toc-ignore}
 
-#### **Fun Fact**: 
+#### **Fun Fact**: Ralphie has travelled to four countries!
 
 <div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphieroo](http://www.instagram.com/ralphieroo)</h4></divr>
 
 ***
 
-## Amaterasu {.tabset .tabset-fade}
+## Amaterasu (Ammy) {.tabset .tabset-fade}
 
-![](dogs/Amaterasu.jpg)
+![](dogs/Ammy-1.jpg) <br/><br/>
+![](dogs/Ammy-2.jpg) <br/><br/>
+![](dogs/Ammy-3.jpg) 
 
 ```{r Amaterasu, echo = FALSE}
 dogs %>%
-  filter(Name == "Amaterasu") %>%
+  filter(Name == "Amaterasu (Ammy)") %>%
   kable()
 ```
 
 ### Likes
-*
+* to consume any and all food
+* butt scritches
+* tormenting Ralphie
 
 ### Dislikes
-*
+* car turn signals
+* authority of any type
+* fireworks
 
 ### Favourite Foods
-1.
+1. Anything except leaves
 
 ## {.toc-ignore}
 
-#### **Fun Fact**:
+#### **Fun Fact**: Ammy loves to "rao rao" at strangers in the elevator following her afternoon walk (without fail)!
 
 <div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[ralphie_and_amaterasu_bear](http://www.instagram.com/ralphie_and_amaterasu_bear)</h4></divr>
 
-*** -->
+***
 
 # Demographics
 
