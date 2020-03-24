@@ -66,6 +66,7 @@ dogs %>%
 ```
 
 ### Likes
+* laser pointers
 * playing fetch
 * swimming
 * snow
@@ -78,6 +79,7 @@ dogs %>%
 * puddles
 * liver (but liver-flavoured treats are ok)
 * hula hoops
+* garbage trucks
 
 ### Favourite Foods
 1. Cheesecake
@@ -203,6 +205,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: Honestly very catlike-- will walk away from you if you sit too close but will be upset if not in the same room.
+
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=16 height=16>&nbsp;[no_no_nova_](http://www.instagram.com/no_no_nova_)</h4></div>
 
 ***
 
@@ -380,6 +384,8 @@ dogs %>%
 ![](dogs/Toby-2.jpg) <br/><br/>
 ![](dogs/Toby-3.jpg)
 
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[qwrmak](https://www.instagram.com/qwrmak) </h4></div>
+
 ***
 
 ## Sonny {.tabset .tabset-fade}
@@ -411,6 +417,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: He's a rescue from Texas!
+
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[qwrmak](https://www.instagram.com/qwrmak) </h4></div>
 
 ***
 
@@ -465,6 +473,8 @@ dogs %>%
 ## {.toc-ignore}
 
 #### **Fun Fact**: She has a surprisingly deep bark.
+
+<div align="right"><h4><img src="https://github.com/dy-lin/logos/raw/master/Instagram/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png" width=18 height=18>&nbsp;[goldenretriever_luna_](https://www.instagram.com/goldenretriever_luna_) </h4></div>
 
 ***
 
